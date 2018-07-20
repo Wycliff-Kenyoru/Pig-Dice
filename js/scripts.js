@@ -22,6 +22,7 @@ $(document).ready(function () {
     event.preventDefault();
 
     var nameHolder = new Names(playerName1, playerName2);
+    $("#rollResult").empty()
   })
 
 
@@ -89,7 +90,6 @@ function holdThePig() {
   pigGame.turnScore = 0;
   switchPlayer();
 }
-
 
 function switchPlayer() {
   if (pigGame.playerUp === 1) {

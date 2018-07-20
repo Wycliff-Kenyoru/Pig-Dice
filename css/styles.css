@@ -1,36 +1,49 @@
 body {
     background-color: lightgreen;
-  }
-  
-  .jumbotron {
+}
+
+.jumbotron {
     color: black;
     background-color: ivory;
     border: 3px solid purple;
-  }
-  
-  img {
+}
+
+img {
     margin-top: 10px;
     float: right;
-  }
-  
-  #gameDisplayPlayer1 {
-    background-color: ivory;
-    border: 2px solid purple;
-  }
-  
-  #gameDisplayPlayer2 {
-    background-color: ivory;
-    border: 2px solid purple;
-  }
-  
-  h1 {
-    color: purple;
-  font-style: italic;
-  }
+}
 
-  #play{
+#gameDisplayPlayer1 {
+    background-color: ivory;
+    border: 2px solid purple;
+}
+
+#gameDisplayPlayer2 {
+    background-color: ivory;
+    border: 2px solid purple;
+}
+
+h1 {
+    color: purple;
+    font-style: italic;
+}
+
+#play {
     background-color: purple;
-  }
-  #play2{
+}
+
+#play2 {
     background-color: purple;
-  }
+}
+
+#play3 {
+    background-color: purple;
+}
+
+#play4 {
+    background-color: purple;
+}
+
+#play5 {
+    background-color: purple;
+}
