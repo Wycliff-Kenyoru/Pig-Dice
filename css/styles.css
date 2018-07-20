@@ -4,7 +4,7 @@ body {
   
   .jumbotron {
     color: black;
-    background-color: lavender;
+    background-color: ivory;
     border: 3px solid purple;
   }
   
@@ -15,16 +15,22 @@ body {
   
   #gameDisplayPlayer1 {
     background-color: ivory;
-    border: 2px solid yellow;
+    border: 2px solid purple;
   }
   
   #gameDisplayPlayer2 {
     background-color: ivory;
-    border: 2px solid yellow;
+    border: 2px solid purple;
   }
   
   h1 {
-    color: red;
+    color: purple;
   font-style: italic;
   }
-  
+
+  #play{
+    background-color: purple;
+  }
+  #play2{
+    background-color: purple;
+  }

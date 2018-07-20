@@ -13,7 +13,7 @@
         <div class="jumbotron">
             <img src="img/pigdice.jpg" alt="pig-dice" width="35%" />
             <h1>Let's Play Pig Dice!!</h1>
-            <form id="pigForm" class="form-group" action="index.html" method="post">
+            <form id="DiceForm" class="form-group" action="index.html" method="post">
                 <div class="player-group">
                     <label class="player-group">Enter Player1</label>
                     <input id="playerName1" type="text">
@@ -22,10 +22,11 @@
                     <label class="player-group">Enter Player2</label>
                     <input id="playerName2" type="text">
                 </div>
-                <button class="player-group btn-success" name="button">Submit</button>
+                <button id="play" class="btn">play</button>
             </form>
         </div>
         <br>
+        
         <div class="gameDisplay">
             <div class="col-md-6" id="gameDisplayPlayer1">
                 <h1>
