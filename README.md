@@ -8,6 +8,8 @@
 
 #### This is a program where two users can play Pig Dice against each other. Users can choose to play with one die or two.
 
+## live link https://wycliff-kenyoru.github.io/Pig-Dice/
+
 ### Setup/Installation Requirements
 git clone https://github.com/Wycliff-Kenyoru/Pig-Dice
 Open the index.html file with the browser of your choice
