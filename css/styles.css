@@ -1,27 +1,30 @@
 body {
     background-color: lightgreen;
-}
-.jumbotron {
+  }
+  
+  .jumbotron {
     color: black;
-    background-color:ivory;
+    background-color: lavender;
     border: 3px solid purple;
-}
-img {
+  }
+  
+  img {
     margin-top: 10px;
     float: right;
-}
-#gameDisplayPlayer1 {
+  }
+  
+  #gameDisplayPlayer1 {
     background-color: ivory;
     border: 2px solid yellow;
-}
-#gameDisplayPlayer2 {
+  }
+  
+  #gameDisplayPlayer2 {
     background-color: ivory;
     border: 2px solid yellow;
-}
-h1 {
-    color: yellow;
-    font-style: italic;
-}
-#button{
- background-color: yellow;   
-}
+  }
+  
+  h1 {
+    color: red;
+  font-style: italic;
+  }
+  

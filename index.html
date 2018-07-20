@@ -2,13 +2,12 @@
 <html lang="en">
 
 <head>
-    <title>Pig Dice</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <script src="js/jquery-3.1.0.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
+    <title>Pig Dice</title>
 </head>
-
 <body>
     <div class="container">
         <div class="jumbotron">
@@ -28,7 +27,7 @@
         </div>
         <br>
         <div class="gameDisplay">
-            <div class="col-md-5" id="gameDisplayPlayer1">
+            <div class="col-md-6" id="gameDisplayPlayer1">
                 <h1>
                     <span id="playerName1"></span>'s Score:
                     <span class="gameStatusDisplay  player1Score">0</span>
@@ -42,12 +41,11 @@
                     <h2>Roll Result:
                         <span id="rollResult" class="gameStatusDisplay rollResult"></span>
                     </h2>
-
                     <button type="button" class="btn btn-warning btn-lg rollPig">(Re)Roll for More Points!</button>
                     <button type="button" class="btn btn-primary btn-lg holdPig">Stop rolling and keep points...</button>
                 </div>
             </div>
-            <div class="col-md-5 col-md-offset-2" id="gameDisplayPlayer2">
+            <div class="col-md-6 col-md-offset-2" id="gameDisplayPlayer2">
                 <h1>
                     <span id="playerName2"></span>'s Score:
                     <span class="gameStatusDisplay player2Score">0</span>
@@ -71,6 +69,7 @@
         </div>
 
     </div>
+
 </body>
 
 </html>
